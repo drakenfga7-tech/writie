@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$page_title</title>
+<meta name="description" content="$description">
+<meta property="og:type" content="$og_type">
+<meta property="og:title" content="$title">
+<meta property="og:description" content="$description">
+<meta property="og:site_name" content="$site_name">
+<meta name="twitter:card" content="summary_large_image">
+$head_extra
+<link rel="alternate" type="application/rss+xml" title="$site_name" href="/feed.xml">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/">$site_name</a>
+    <nav aria-label="Main">$nav</nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+$content
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="foot-name">$site_name</p>
+    <p class="muted">$tagline</p>
+    <p class="foot-links">$footer_links</p>
+    <p class="muted small">&copy; $year $author</p>
+  </div>
+</footer>
+</body>
+</html>
